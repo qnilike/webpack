@@ -1,0 +1,16 @@
+{
+  "name": "webpackDEmo",
+  "version": "1.0.0",
+  "main": "index.js",
+  /*"babel":{
+    "presets":["latest"]
+  },*/
+  "scripts": {
+    "test": "echo \"Error：no test specified\" && exit 1",
+    "webpack": "webpack --config webpack.config.js --progress --display-modules --colors"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1"
+  }
+}
